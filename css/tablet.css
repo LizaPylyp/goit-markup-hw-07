@@ -154,4 +154,100 @@ width: 356px;
         .feature{
             gap: 0;
         }
+        .section3{
+        opacity: 0;
+        display: none;
+        }
+        .container4{
+            width:100% ;
+        }
+        .section4__title{
+            text-align: center;
+            margin-left: 0;
+        }
+        .team{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .person:nth-child(2){
+            margin-right: 0;
+            margin-bottom: 64px;
+
+        }
+        .person:nth-child(1){
+            margin-bottom: 64px;
+        }
+        .container5{
+            width: 100%;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        .vector-group{
+            flex-wrap: wrap;
+        }
+        .group:nth-child(3){
+            margin-right: 0;
+            margin-bottom: 72px;
+        }
+        .group:nth-child(4){
+            margin-left: 0;
+        }
+        .group:nth-child(2){
+            margin-bottom: 72px;
+        }
+        .group:nth-child(1){
+            margin-bottom: 72px;
+        }
+        .footer__container{
+            width: 100%;
+            flex-direction: column;
+            height: auto;
+            padding-left: 108px;
+            padding-right: 108px;
+            padding-bottom: 96px;
+        }
+        .menu-footer{
+            display: flex;
+        }
+        .footer{
+            height: 100%;
+        }
+        .footer2{
+            margin-left: 32px;
+        }
+        .footer3{
+            padding-top: 0;
+            margin-left: 0;
+            margin-top: 72px;
+        }
+        .container12{
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .papka:nth-child(7){
+            margin-right: 24px;
+        }
+        .papka:nth-child(8){
+            margin-right: 0;
+        }
+        .papka{
+            margin-right: 0;
+        }
+        .papka:nth-child(5){
+            margin-right: 24px;
+        }
+        .papka:nth-child(3){
+            margin-right: 24px;
+        }
+        .papka:nth-child(1){
+            margin-right: 24px;
+        }
+        .papka:last-child{
+            margin-top: 72px;
+        }
+        .hero-picture{
+        justify-content: flex-start;
+        }
+
 }
