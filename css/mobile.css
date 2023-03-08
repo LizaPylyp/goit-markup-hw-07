@@ -1,0 +1,149 @@
+@media(max-width:480px ){
+    .header-container{
+        width: 100%;
+    }
+    .adress{
+        opacity: 0;
+    }
+    .links{
+        opacity: 0;
+    }
+    .svg_line{
+        opacity: 100%;
+    }
+    .container2{
+        width: 100%;
+    }
+    .feature{
+        display: block;
+    }
+    .feature3__title{
+        text-align: center;
+
+    }
+    .feature3__text{
+        text-align: center;
+    }
+    .feature2__title{
+        text-align: center;
+    }
+    .feature2__text{
+        text-align: center;
+    }
+    .feature4__text{
+        text-align: center;
+    }
+    .feature4__title{
+        text-align: center;
+    }
+    .feature1__text{
+        text-align: center;
+    }
+    .feature1__title{
+        text-align: center;
+    }
+    .feature1{
+        align-items: center;
+        width: 100%;
+    }
+    .feature2{
+        align-items: center;
+        width: 100%;
+    }
+    .feature3{
+        align-items: center;
+        margin-bottom: 72px;
+        width: 100%;
+    }
+    .feature4{
+        align-items: center;
+        width: 100%;
+    }
+    @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    .section1{
+        background-image: 
+        linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+            ), 
+        url(../images/dark-bg\ \(3\).jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 480px;
+        background-size: cover;
+    }
+  }
+    .section1__title{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+width: 320px;
+margin-bottom:72px ;
+    }
+.section1__button{
+    margin-top: 0;
+}
+.team{
+
+}
+.container4{
+    width: 100%;
+}
+.person{
+    margin-right: 0;
+}
+.person:nth-child(3){
+    margin-bottom: 72px;
+}
+.group:nth-child(4){
+    margin-left: 16px;
+    margin-right: 0;
+}
+.group:nth-child(2){
+    margin-right: 0;
+}
+.group{
+    margin-right: 16px;
+    width: 190px;
+    height: 88px;
+}
+.container5{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.menu-footer{
+    display: block;
+    width: 100%;
+    padding-left: 66px;
+    padding-right: 66px;
+}
+.footer__container{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+}
+.footer__title{
+    text-align: center;
+    margin:0 auto;
+}
+.footer1{
+    display: block;
+    text-align: center;
+}
+.footer-span{
+    text-align: center;
+}
+.first-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
