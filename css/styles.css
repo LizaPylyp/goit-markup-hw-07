@@ -702,6 +702,12 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 } 
+.button-line{
+    opacity: 0;
+}
+.svg-line{
+    fill: #212121;
+}
 .papka:last-child {
     background: #FFFFFF;
 border: 1px solid #E7E9FC;
