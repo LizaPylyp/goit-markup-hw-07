@@ -518,6 +518,7 @@ padding-bottom: 24px;
 .section11__button1{
     display: flex;
 flex-direction: row;
+margin-right: 24px;
 align-items: flex-start;
 padding: 16px 24px;
 width: 69px;
@@ -552,6 +553,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .section11__button2{
     box-sizing: border-box;
 display: flex;
+margin-right: 24px;
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -609,6 +611,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     padding: 12px 24px;
     width: 101px;
+    margin-right: 24px;
     height: 48px;
     background: #F4F4FD;
     color: #4D5AE5;
@@ -720,6 +723,24 @@ border: 1px solid #E7E9FC;
 margin-bottom: 48px;
 margin-right: 0;
 }
+.links-button{
+    opacity: 0;
+    display: none;
+}
+.menu-button{
+    opacity: 0;
+    display: none;
+}
+.button-menu{
+    opacity: 0;
+    display: none;
+}
+.buttons{
+    display: flex;
+}
+.buttons-last{
+    display: flex;
+}
 .papka:nth-child(6){
     background: #FFFFFF;
 border: 1px solid #E7E9FC;
@@ -763,7 +784,7 @@ margin: 0;
 .menu-span{
     width: 71px;
 height: 24px;
-font-family: 'Raleway';
+font-family: 'Raleway' , sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
