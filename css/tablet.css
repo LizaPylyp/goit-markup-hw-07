@@ -11,6 +11,14 @@
         display: block;
         margin-left: 118px;
     }
+    .links-button{
+        opacity: 0;
+        display: none;
+    }
+    .menu-button{
+        opacity: 0;
+        display: none;
+    }
     .section1{
         background-image: 
         linear-gradient(
