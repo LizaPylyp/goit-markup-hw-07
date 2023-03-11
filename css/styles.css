@@ -3,6 +3,10 @@
 *::after{
     box-sizing: border-box;
 }
+*:hover,
+*:focus{
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}  
 h1,
 h2,
 h3,
