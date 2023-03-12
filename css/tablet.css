@@ -4,8 +4,11 @@
         max-width: 720px;
         padding-left: 16px;
         padding-right: 16px;
+        padding-bottom: 16px;
+        padding-top: 16px;
         margin-left: 0;
         margin-right: 0;
+        align-items: center;
     }
     .addresss{
         display: block;
