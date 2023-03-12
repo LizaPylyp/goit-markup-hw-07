@@ -1,4 +1,5 @@
-@media(max-width:480px ){
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
     *,
     *::before,
     *::after{
@@ -17,31 +18,35 @@
     }
     .container2{
         width: 100%;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
     .feature{
         display: block;
+
     }
     .feature3__title{
         text-align: center;
 
     }
     .feature3__text{
-        text-align: center;
+        text-align: left;
     }
     .feature2__title{
         text-align: center;
     }
     .feature2__text{
-        text-align: center;
+        text-align: left;
+
     }
     .feature4__text{
-        text-align: center;
+        text-align: left;
     }
     .feature4__title{
         text-align: center;
     }
     .feature1__text{
-        text-align: center;
+        text-align:left;
     }
     .feature1__title{
         text-align: center;
@@ -49,19 +54,23 @@
     .feature1{
         align-items: center;
         width: 100%;
+        gap: 0;
     }
     .feature2{
         align-items: center;
         width: 100%;
+        gap: 0;
     }
     .feature3{
         align-items: center;
         margin-bottom: 72px;
         width: 100%;
+        gap: 0;
     }
     .feature4{
         align-items: center;
         width: 100%;
+        gap: 0;
     }
     @media only screen
   and (min-device-width: 320px)
@@ -78,6 +87,8 @@
         background-position: center;
         max-width: 480px;
         background-size: cover;
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
   }
     .section1__title{
@@ -87,8 +98,19 @@ font-weight: 700;
 font-size: 36px;
 line-height: 40px;
 width: 320px;
-margin-bottom:72px ;
+margin-bottom: 72px;
+
     }
+    .section4__title{
+        margin-top: 0;
+    }
+    .person{
+        margin-bottom: 72px;
+    }
+    .person:last-child{
+        margin-bottom: 0;
+    }
+    
     .menu{
         margin-left: 0;
     }
@@ -101,19 +123,25 @@ margin-bottom:72px ;
 }
 .container4{
     width: 100%;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .person{
     margin-right: 0;
 }
 .person:nth-child(3){
     margin-bottom: 72px;
+    margin-right: 0;
 }
 .group:nth-child(4){
-    margin-left: 16px;
+    margin-left: 0;
     margin-right: 0;
 }
 .group:nth-child(2){
     margin-right: 0;
+}
+.group:nth-child(3){
+    margin-right: 16px;
 }
 .group{
     margin-right: 16px;
@@ -124,13 +152,13 @@ margin-bottom:72px ;
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 96px;
+    padding-top: 96px;
 }
 .menu-footer{
     display: block;
-    width: 100%;
-    padding-left: 66px;
-    padding-right: 66px;
 }
+
 .footer__container{
     width: 100%;
     padding-left: 16px;
@@ -175,9 +203,13 @@ margin-bottom:72px ;
 }
 .footer__text{
     text-align:left;
+    padding-top: 17px;
+    padding-bottom: 0;
 }
 .footer2{
     margin-left: 0;
+    padding-top: 0;
+    margin-top: 100px;
 }
 .text-media{
     text-align: center;
@@ -232,13 +264,41 @@ width: 24px;
 }
 .subscribe{
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 .page-label{
     display: block;
+    width: 100%;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .subscribe__net{
+
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer3{
+    width: 100%;
+}
+.footer{
+ width: 100%;
+}
+.footer2{
+    width: 100%;
+}
+.modal{
+    padding: 72px 16px 16px 24px;
+}
+.hobby{
+    margin-top: 18px;
 }
 .stud{
     margin-left: auto;
@@ -252,6 +312,9 @@ width: 24px;
 width: 100%;
 flex-wrap: wrap;
 justify-content: flex-start;
+margin-top:48px ;
+gap: 16px;
+margin-bottom: 48px;
 }
 .section11__button1{
     width: 53px;
@@ -348,10 +411,10 @@ height: 24px;
   }
   .menu-container {
     position: fixed;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 796px;
 padding-left: 40px;
 padding-bottom: 40px;
 padding-top: 80px;
@@ -509,5 +572,33 @@ margin-right: 0;
   .header-container{
     width: 100%;
     justify-content: space-between;
+    max-width: 480px;
+    min-width: 320px;
+    padding-bottom: 22px;
+  }
+  .header-container1{
+    padding-bottom: 22px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 427px){
+    .group:nth-child(5){
+        margin-right: 0;
+        margin-bottom: 72px;
+    }
+    .group:nth-child(4){
+        margin-left: 0;
+        margin-bottom: 72px;
+    }
+    .vector-group{
+        display: block;
+    }
+    .container5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column
+    }
   }
 }
+
