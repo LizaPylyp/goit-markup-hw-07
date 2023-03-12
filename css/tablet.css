@@ -1,6 +1,6 @@
 @media (max-width:768px ){
     .header-container{
-        width: 100%;
+        width: 96%;
         max-width: 720px;
         padding-left: 16px;
         padding-right: 16px;
@@ -9,6 +9,9 @@
         margin-left: 0;
         margin-right: 0;
         align-items: center;
+    }
+    .header-web{
+        width: 100%;
     }
     .addresss{
         display: block;
@@ -33,6 +36,7 @@
         background-position: center;
         max-width: 768px;
         background-size: cover;
+        width: 100%;
         }
         .section1__button{
             display: flex;
@@ -40,7 +44,7 @@
             align-items: center;
         }
         .container1{
-            width: 100%;
+            width:96%;
         }
         .feature{
             flex-wrap:wrap;
@@ -48,7 +52,9 @@
             justify-content: center;
         }
         .container2{
-            width: 100%;
+            width: 96%;
+            padding-left: 0;
+            padding-right: 0;
         }
         .symbol{
             display: none;
@@ -62,6 +68,9 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 color: #2E2F42;
 
+        }
+        .section2{
+            width: 100%;
         }
         .feature2__title{
             font-family: 'Roboto';
@@ -168,13 +177,23 @@ width: 356px;
         .section3{
         opacity: 0;
         display: none;
+        width: 100%;
+        }
+        .container3{
+            width: 96%;
         }
         .container4{
-            width:100% ;
+            width:96% ;
         }
         .section4__title{
             text-align: center;
             margin-left: 0;
+        }
+        .section4{
+            width: 100%;
+        }
+        .section5{
+            width: 100%;
         }
         .team{
             flex-wrap: wrap;
@@ -189,7 +208,7 @@ width: 356px;
             margin-bottom: 64px;
         }
         .container5{
-            width: 100%;
+            width: 96%;
             padding-left: 35px;
             padding-right: 35px;
         }
@@ -210,7 +229,7 @@ width: 356px;
             margin-bottom: 72px;
         }
         .footer__container{
-            width: 100%;
+            width: 96%;
             flex-direction: column;
             height: auto;
             padding-left: 108px;
@@ -222,6 +241,7 @@ width: 356px;
         }
         .footer{
             height: 100%;
+            width: 100%;
         }
         .footer2{
             margin-left: 32px;
