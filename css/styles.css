@@ -165,7 +165,6 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section1__title{
     width: 504px;
-height: 120px;
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
@@ -1323,7 +1322,11 @@ border: 1px solid rgba(0, 0, 0, 0.1);
             }
             .page-label{
                 display: flex;
-            }
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
             
 
     
