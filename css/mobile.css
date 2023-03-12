@@ -17,10 +17,14 @@
         display: none;
     }
     .container2{
-        width: 100%;
+        width: 93%;
         padding-top: 96px;
         padding-bottom: 96px;
     }
+    .section4{
+        width: 100%;
+    }
+
     .feature{
         display: block;
 
@@ -122,7 +126,7 @@ margin-bottom: 72px;
     margin-top: 0;
 }
 .container4{
-    width: 100%;
+    width: 93%;
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -149,18 +153,23 @@ margin-bottom: 72px;
     height: 88px;
 }
 .container5{
-    width: 100%;
+    width: 93%;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 96px;
     padding-top: 96px;
+}
+.section5{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .menu-footer{
     display: block;
 }
 
 .footer__container{
-    width: 100%;
+    width: 83%;
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
@@ -290,6 +299,8 @@ width: 24px;
 }
 .footer{
  width: 100%;
+ margin-right: auto;
+ margin-left: auto;
 }
 .footer2{
     width: 100%;
@@ -570,11 +581,22 @@ margin-right: 0;
     height: 24px;
   }
   .header-container{
-    width: 100%;
+    width: 93%;
     justify-content: space-between;
-    max-width: 480px;
-    min-width: 320px;
     padding-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-web{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .section2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .header-container1{
     padding-bottom: 22px;
