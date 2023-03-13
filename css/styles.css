@@ -478,7 +478,7 @@ padding-top: 16px;
 .footer__container{
 margin-left: auto;
 margin-right: auto;
-max-width: 766px;
+max-width: 1158px;
 padding-right: 15px;
 padding-left: 15px;
 display: flex;
@@ -504,7 +504,7 @@ margin-right: auto;
     display: flex;
 margin-left: auto;
 margin-right: auto;
-width: 1158px;
+max-width: 1158px;
 padding-right: 15px;
 padding-left: 15px;
 align-items: center;
@@ -808,7 +808,7 @@ flex-direction: column;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
-width: 1158px;
+max-width:  1158px;
 }
 .links__studio:hover{
    color:  #404BBF;
@@ -831,7 +831,7 @@ width: 1158px;
 .container2{
     margin-left: auto;
 margin-right: auto;
-width: 1158px;
+max-width: 1158px;
 padding-right: 15px;
 padding-left: 15px;
 align-items: center;
@@ -853,7 +853,7 @@ align-items: center;
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px; 
-    max-width: 766px;
+    max-width: 1158px;
 }
 .section4{
     background: #F4F4FD;
@@ -866,7 +866,7 @@ align-items: center;
 margin-right: auto;
 padding-right: 15px;
 padding-left: 15px;
-margin-right: 766px;
+max-width: 1158px;
 }
 .footer{
     background: #2E2F42;
@@ -886,12 +886,12 @@ padding-right: 15px;
 padding-left: 15px;
 align-items: center;
 justify-content: center;
-max-width: 766px;
+max-width: 1158px;
 }
 .container12{
     margin-left: auto;
 margin-right: auto;
-max-width: 766px;
+max-width: 1158px;
 }
 .section12{
     background: #FFFFFF;
@@ -1022,7 +1022,7 @@ cursor: pointer;
     margin-right: 0;
 }
 .container5{
-    max-width: 766px;;
+    max-width: 1158px;
     margin-left: auto;
 margin-right: auto;
 padding-right: 15px;
