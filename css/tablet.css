@@ -1,13 +1,12 @@
 @media (max-width:768px ){
     .header-container{
-        width: 96%;
-        max-width: 720px;
+        max-width: 766px;
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 16px;
         padding-top: 16px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
         align-items: center;
     }
     .header-web{
@@ -44,7 +43,7 @@
             align-items: center;
         }
         .container1{
-            width:96%;
+            max-width:766px;
         }
         .feature{
             flex-wrap:wrap;
@@ -52,7 +51,7 @@
             justify-content: center;
         }
         .container2{
-            width: 96%;
+          max-width: 766px;
             padding-left: 0;
             padding-right: 0;
         }
