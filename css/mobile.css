@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media (max-width: 768px){
     *,
     *::before,
     *::after{
@@ -7,8 +7,10 @@
     }
     .container{
       max-width:  426px;
-      min-width: 288px;
-      width: auto;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin-left: auto;
+     margin-right: auto;
     }
     .adress{
         opacity: 0;
@@ -20,10 +22,12 @@
     }
     .container2{
         max-width: 426px;
-        min-width: 288px;
         padding-top: 96px;
         padding-bottom: 96px;
-        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .section4{
         width: 100%;
@@ -82,7 +86,7 @@
     }
     @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 480px)
+  and (max-device-width: 768px)
   and (-webkit-min-device-pixel-ratio: 2){
     .section1{
         background-image: 
@@ -93,7 +97,6 @@
         url(../images/dark-bg\ \(3\).jpg);
         background-repeat: no-repeat;
         background-position: center;
-        max-width: 480px;
         background-size: cover;
         padding-top: 112px;
         padding-bottom: 112px;
@@ -131,10 +134,12 @@ margin-bottom: 72px;
 }
 .container4{
     max-width: 426px;
-    min-width: 288px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 96px;
     padding-bottom: 96px;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .person{
     margin-right: 0;
@@ -160,12 +165,13 @@ margin-bottom: 72px;
 }
 .container5{
     max-width: 426px;
-    min-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 96px;
     padding-top: 96px;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .section5{
     width: 100%;
@@ -178,12 +184,12 @@ margin-bottom: 72px;
 
 .footer__container{
     max-width: 426px;
-    min-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
     align-items: center;
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer__title{
     text-align: right;
@@ -316,7 +322,7 @@ width: 24px;
     width: 100%;
 }
 .modal{
-    padding: 72px 16px 16px 24px;
+    padding: 72px 16px 16px 16px;
 }
 .hobby{
     margin-top: 18px;
@@ -331,13 +337,15 @@ width: 24px;
 }
 .container11{
 max-width: 426px;
-min-width: 288px;
 flex-wrap: wrap;
 justify-content: flex-start;
 margin-top:48px ;
 gap: 16px;
 margin-bottom: 48px;
-width: auto;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
 }
 .section11__button1{
     width: 53px;
@@ -376,10 +384,10 @@ margin-right: 24px;
 }
 .container12{
     max-width: 426px;
-    min-width: 288px;
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 16px;
     padding-right: 16px;
-    width: auto;
 }
 .images{
     height: 280px;
@@ -436,7 +444,6 @@ height: 24px;
   }
   .menu-container {
     position: fixed;
-
     height: 100%;
     top: 0;
     left: 0;
@@ -455,11 +462,14 @@ padding-right: 40px;
   }
   .menu-container.is-open {
     transform: translateX(0);
-    max-width: 426px;
+    
   }
   .container1{
     max-width: 426px;
-    width: auto;
+    padding-left: 15px;
+    padding-right:15px ;
+    margin-left: auto;
+    margin-right: auto;
   }
   .menu-container .menu-toggle {
     position: absolute;
@@ -467,11 +477,13 @@ padding-right: 40px;
     right: 24px;
     color: #FFFFFF;
     max-width: 426px;
-    width: auto;
   }
   .container3{
     max-width: 426px;
-    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .menu .link {
     padding: 10px;
@@ -608,14 +620,13 @@ margin-right: 0;
   }
   .header-container{
     max-width: 426px;
-    min-width: 288px;
     justify-content: space-between;
     padding-bottom: 22px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: auto;
+    
   }
   .header-web{
     width: 100%;
@@ -631,10 +642,13 @@ margin-right: 0;
   .header-container1{
     padding-bottom: 22px;
     max-width: 426px;
-    min-width: 288px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  @media only screen and (min-width: 320px) and (max-width: 427px){
+  @media (max-width: 768px){
     .group:nth-child(5){
         margin-right: 0;
         margin-bottom: 72px;
@@ -643,17 +657,19 @@ margin-right: 0;
         margin-left: 0;
         margin-bottom: 72px;
     }
-    .vector-group{
-        display: block;
-    }
     .container5{
         display: flex;
         align-items: center;
         justify-content: center;
         align-content: center;
         flex-direction: column;
-        width: auto;
+        max-width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
     }
   }
+  
 }
 
