@@ -1,4 +1,4 @@
-@media (max-width:768px ){
+@media  (max-width:1199px ){
     .header-container{
         max-width: 766px;
         padding-left: 16px;
@@ -24,6 +24,10 @@
         opacity: 0;
         display: none;
     }
+    @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1199px)
+  and (-webkit-min-device-pixel-ratio: 2){
     .section1{
         background-image: 
         linear-gradient(
@@ -33,10 +37,10 @@
         url(../images/dark-bg\ \(1\).jpg);
         background-repeat: no-repeat;
         background-position: center;
-        max-width: 768px;
         background-size: cover;
         width: 100%;
         }
+    }
         .section1__button{
             display: flex;
             justify-content: center;
@@ -179,10 +183,12 @@ width: 356px;
         width: 100%;
         }
         .container3{
-            width: 96%;
+            max-width: 766px;;
         }
         .container4{
-            width:96% ;
+            max-width: 766px;
+            margin-right: auto;
+            margin-left: auto;
         }
         .section4__title{
             text-align: center;
@@ -207,7 +213,7 @@ width: 356px;
             margin-bottom: 64px;
         }
         .container5{
-            width: 96%;
+            max-width: 766px;
             padding-left: 35px;
             padding-right: 35px;
         }
@@ -228,7 +234,7 @@ width: 356px;
             margin-bottom: 72px;
         }
         .footer__container{
-            width: 96%;
+           max-width: 766px;
             flex-direction: column;
             height: auto;
             padding-left: 108px;
@@ -251,7 +257,7 @@ width: 356px;
             margin-top: 72px;
         }
         .container12{
-            width: 100%;
+            max-width: 766px;
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -288,6 +294,7 @@ width: 356px;
     .menu-container{
         opacity: 0;
         display: none;
+        max-width: 766px;
     }
   }
   
