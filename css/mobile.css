@@ -1,5 +1,5 @@
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     *,
     *::before,
     *::after{
@@ -324,6 +324,9 @@ width: 24px;
 }
 .modal{
     padding: 72px 16px 16px 16px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 .hobby{
     margin-top: 18px;
@@ -443,8 +446,46 @@ height: 24px;
   .menu-toggle:focus {
     background: #404BBF;
   }
+  @media (max-width:320px){
+    .menu-container {
+        max-width: 320px;
+    }
+    .modal{
+        max-width: 320px ;
+
+    }
+    .forma__hp12{
+        width: 288px;
+    }
+    .forma__len{
+        width: 288px;
+    }
+    .forma__macb{
+        width: 288px;
+    }
+    .forma__blb{
+        width: 288px;
+    }
+    .forma__tutor{
+        width: 288px;
+    }
+    .forma__poshta{
+        height: 58px;
+    }
+    .forma__telefon{
+        height: 58px;
+    }
+    .forma__person{
+        height: 58px;
+    }
+    .hobby{
+         width: 288px; 
+         text-align: center;
+    }
+  }
   .menu-container {
     position: fixed;
+
     height: 100%;
     top: 0;
     left: 0;
@@ -460,10 +501,15 @@ padding-right: 40px;
     opacity: 100%;
     display: block;
     width: 100%;
+
   }
   .menu-container.is-open {
     transform: translateX(0);
-    
+
+
+  }
+  .hero-footer{
+    display: block;
   }
   .container1{
     max-width: 426px;
@@ -477,7 +523,7 @@ padding-right: 40px;
     top: 24px;
     right: 24px;
     color: #FFFFFF;
-    max-width: 426px;
+ 
   }
   .container3{
     max-width: 426px;
