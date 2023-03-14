@@ -1156,6 +1156,9 @@ padding: 72px 24px 24px 24px;
         .forma__hp12:focus{
             border: 1px solid #404BBF;  
         }
+        .hero-footer{
+            display: flex;
+        }
         .forma__telefon{
             width: 13px;
         height: 13px;
