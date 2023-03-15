@@ -34,7 +34,7 @@
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
             ), 
-        url(../images/dark-bg\ \(1\).jpg);
+        url(../images/dark-bg\ \(3\)\ \(1\).jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -245,7 +245,7 @@ width: 356px;
         }
         .footer__container{
            max-width: 766px;
-            flex-direction: column;
+            flex-wrap: wrap;
             height: auto;
             padding-left: 108px;
             padding-right: 108px;
@@ -306,10 +306,7 @@ width: 356px;
 .section12{
     padding-bottom: 96px;
 }
-.hero-footer{
-    display: flex;
-}
-}
+
 
 @media (max-width: 768px) {
     .menu-toggle {
@@ -321,4 +318,4 @@ width: 356px;
         max-width: 766px;
     }
   }
-  
+}
