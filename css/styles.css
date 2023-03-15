@@ -363,7 +363,7 @@ line-height: 1.1;
 color: #2E2F42;
 margin-top: 120px;
 margin-bottom: 72px;
-margin-left: 485px;
+text-align: center;
 
 }
 .team{
@@ -384,6 +384,7 @@ margin-left: 485px;
     line-height: 1.5;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .person1__text{
     font-style: normal;
@@ -411,6 +412,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
+margin-bottom: 8px;
 }
 .person3__title{
 font-style: normal;
@@ -420,6 +422,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 8px;
 }
 .person3__text{
 font-style: normal;
@@ -438,6 +441,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 8px;
 }
 .person4__text{
 font-style: normal;
@@ -472,7 +476,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-padding-bottom: 100px;
 padding-top: 16px;
 }
 .footer__container{
@@ -481,6 +484,7 @@ margin-right: auto;
 max-width: 1158px;
 padding-right: 15px;
 padding-left: 15px;
+padding-bottom: 100px;
 display: flex;
 }
 .header-web{
@@ -1035,7 +1039,7 @@ font-size: 36px;
 line-height: 1.1;
 color: #2E2F42;
 text-align: center;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 .menu-footer{
     display: flex;
