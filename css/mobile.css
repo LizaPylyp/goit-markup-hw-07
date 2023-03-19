@@ -22,8 +22,6 @@
     }
     .container2{
         max-width: 426px;
-        padding-top: 96px;
-        padding-bottom: 96px;
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
@@ -672,7 +670,6 @@ margin-right: 0;
   .header-container{
     max-width: 426px;
     justify-content: space-between;
-    padding-bottom: 22px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -683,15 +680,17 @@ margin-right: 0;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .section2{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .header-container1{
-    padding-bottom: 22px;
     max-width: 426px;
     padding-left: 15px;
     padding-right: 15px;
