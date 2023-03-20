@@ -1,5 +1,19 @@
 
 @media (max-width: 767px){
+    .svg-open{
+        display: inline;
+        background-size: auto;
+       
+    }
+    .dope{
+        display: inline-block;
+    width: 32px;
+    height: 22px;
+    stroke: #2E2F42;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3px;
+    }
     *,
     *::before,
     *::after{
@@ -217,17 +231,20 @@ margin-bottom: 72px;
     justify-content: center;
 }
 .button-menu{
-    display: inline-flex;
-    padding: 0;
-    margin: 0;
-    border: none;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
+    border: none;
+    cursor: pointer;
     opacity: 100%;
+    display: inline-block;
 }
 .lines{
     width: 32px;
     height: 22px;
     opacity: 100%;
+    display: flex;
+    background: url(../images/symbol-defs.svg#p);
 }
 .footer__text{
     text-align:left;
@@ -648,7 +665,7 @@ margin-right: 0;
   }
   .soc-media{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .insta4{
@@ -743,5 +760,17 @@ margin-right: 0;
         margin-bottom: 72px;
     }
 }
-
+@media(max-width:409px){
+    .group{
+        width: 145px;
+    }
+}
+@media(max-width:767px){
+    .vector-group{
+        display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+    }
+}
 
