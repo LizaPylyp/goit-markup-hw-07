@@ -1,6 +1,6 @@
 @media  (max-width:1199px ){
     .header-container{
-        max-width: 766px;
+        max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
         margin-left: auto;
@@ -20,6 +20,13 @@
     .addresss{
         display: block;
         margin-left: 118px;
+    }
+    .addresss__gmail{
+        font-size: 12px;
+    }
+    .addresss__telefon{
+        margin-top: 12px;
+        font-size: 12px;
     }
     .links-button{
         opacity: 0;
@@ -221,7 +228,7 @@ width: 356px;
             margin-bottom: 64px;
         }
         .container{
-            max-width: 766px;
+            max-width: 768px;
             padding-left: 16px;
             padding-right: 16px;
         }
@@ -242,7 +249,7 @@ width: 356px;
             margin-bottom: 72px;
         }
         .footer__container{
-           max-width: 766px;
+           max-width: 768px;
             flex-wrap: wrap;
             height: auto;
             padding-left: 108px;
@@ -270,7 +277,7 @@ width: 356px;
             margin-top: 72px;
         }
         .container-1{
-            max-width: 766px;
+            max-width: 768px;
             padding-left: 15px;
             padding-right: 15px;
         }
