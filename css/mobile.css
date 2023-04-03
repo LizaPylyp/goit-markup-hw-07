@@ -343,7 +343,11 @@ width: 24px;
 }
 .modal{
     padding: 72px 16px 16px 16px;
-
+    max-width:  426px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -477,9 +481,18 @@ height: 24px;
   .menu-toggle:focus {
     background: #404BBF;
   }
-  @media (max-width:320px){
+  @media (max-width:400px) {
+    .modal{
+        max-width: 400px;
+    }
+  }
+  @media (min-width:320px){
     .menu-container {
         max-width: 320px;
+    }
+    .closer{
+        right: 12px;
+        top: 36px;
     }
     .modal{
         max-width: 320px ;
