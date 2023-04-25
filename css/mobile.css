@@ -487,9 +487,7 @@ height: 24px;
     }
   }
   @media (min-width:320px){
-    .menu-container {
-        max-width: 320px;
-    }
+    
     .closer{
         right: 12px;
         top: 36px;
@@ -549,6 +547,8 @@ padding-right: 40px;
   }
   .menu-container.is-open {
     transform: translateX(0);
+    left: 0px;
+
 
 
   }
